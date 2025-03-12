@@ -1,0 +1,15 @@
+def show_menu():
+    print("\nChoose an action:")
+    print("1 - Number all files sequentially")
+    print("2 - Remove text from filenames")
+    print("3 - Add text to filenames")
+    print("4 - Restructure filenames")
+    print("5 - Rename based on EXIF data")
+    print("6 - Filter files by extension")
+    print("7 - Preview rename before applying")
+    print("8 - Undo last rename")
+    print("9 - Rename using regex pattern")
+    print("10 - Sort files into subfolders by date")
+    choice = input("Enter your choice: ")
+    params = input("Enter additional parameters (if needed): ")
+    return choice, params
