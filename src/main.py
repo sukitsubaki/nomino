@@ -7,7 +7,7 @@ from progress import show_progress
 from exif_utils import get_exif_date
 
 def main():
-    print("Welcome to Nomino - Your smart file renamer!")
+    print("Welcome to Nomino - Your smart file renamer")
     folder_path = input("Enter the folder path: ").strip()
     
     if not os.path.isdir(folder_path):
