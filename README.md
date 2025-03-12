@@ -53,8 +53,8 @@ Nomino is a versatile file renaming tool designed to simplify the management of 
 5. Nomino will rename your files accordingly and log the changes in a rename_log.txt file.
 
 ## Requirements
-Python 3.x
-Pillow (for EXIF handling)
+- Python 3.x
+- Pillow (for EXIF handling)
 
 ## File Structure
 ```src/main.py``` Main entry point of the program.
